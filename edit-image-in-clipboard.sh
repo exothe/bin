@@ -1,4 +1,4 @@
-if $(wl-paste -l | grep '^image'); then
+if (wl-paste -l | grep '^image'); then
     # we have an image in our clipboard
     wl-paste | swappy -f - -o -
 else
